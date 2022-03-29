@@ -5,8 +5,19 @@
 
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: "class",
   theme: {
-    extend: {}
+    extend: {
+      color: {
+        "dark-text": "#fafafa",
+      },
+      backgroundColor: {
+        "background": "#09091b"
+      },
+      fontFamily: {
+        "orbitron": ["Orbitron"]
+      }
+    }
   },
   plugins: []
 }
