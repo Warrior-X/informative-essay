@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const PythonIcon = () => {
     return (
         <svg
@@ -52,20 +54,21 @@ const Home = () => {
                 ...of Computers!
             </h1>
             <div className="flex flex-wrap justify-center">
-                <div className="flex basis-5/12 p-6 m-4 bg-slate-300 dark:bg-slate-800 rounded-xl">
-                    <PythonIcon />
-                    <div className="inline-block ml-4 align-middle">
-                        <h3 className="text-xl font-bold dark:text-[#fcfcfc]">
-                            Programming Languages
-                        </h3>
-                        <p className="dark:text-gray-400">
-                            Explore what lets computers run and what tells them
-                            what to do!
-                        </p>
-                    </div>
-                </div>
+                    <Link to="/pl" className="flex basis-5/12 p-6 m-4 bg-slate-300 dark:bg-slate-800 rounded-xl">
+                        <PythonIcon />
+                        <div className="inline-block ml-4 align-middle">
+                            <h3 className="text-xl font-bold dark:text-[#fcfcfc]">
+                                Programming Languages
+                            </h3>
+                            <p className="dark:text-gray-400">
+                                Explore what lets computers run and what tells them
+                                what to do!
+                            </p>
+                        </div>
+                    </Link>
 
-                <div className="flex basis-5/12 p-6 m-4 bg-slate-300 dark:bg-slate-800 rounded-xl">
+
+                <Link to="/os" className="flex basis-5/12 p-6 m-4 bg-slate-300 dark:bg-slate-800 rounded-xl">
                     <WindowsIcon />
                     <div className="inline-block ml-4 align-middle">
                         <h3 className="text-xl font-bold dark:text-[#fcfcfc]">
@@ -76,9 +79,9 @@ const Home = () => {
                             how it works!
                         </p>
                     </div>
-                </div>
+                </Link>
 
-                <div className="flex basis-5/12 p-6 m-4 bg-slate-300 dark:bg-slate-800 rounded-xl">
+                <Link to="/ai" className="flex basis-5/12 p-6 m-4 bg-slate-300 dark:bg-slate-800 rounded-xl">
                     <NeuralNetworkIcon />
                     <div className="inline-block ml-4 align-middle">
                         <h3 className="text-xl font-bold dark:text-[#fcfcfc]">
@@ -89,7 +92,7 @@ const Home = () => {
                             and how it&apos;s done!
                         </p>
                     </div>
-                </div>
+                </Link>
             </div>
         </div>
     );
