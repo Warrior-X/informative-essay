@@ -13,3 +13,17 @@
 .toggle-checkbox:checked + .toggle-label {
     background-color: rgb(76 73 188);
 }
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.text p {
+    text-indent: 2rem;
+}

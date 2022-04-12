@@ -6,6 +6,6 @@ export default class OS extends Component {
             <div className="text-white">
                 <h1>Section1</h1>
             </div>
-        )
+        );
     }
 }
