@@ -1,5 +1,12 @@
 import { Component } from "react";
 import Fig from "./Fig";
+import pl1 from "../pl1.jpeg"
+import pl2 from "../pl2.png"
+import pl3 from "../pl3.jpeg"
+import pl4 from "../pl4.jpeg"
+import pl5 from "../pl5.png"
+import pl6 from "../pl6.png"
+import pl7 from "../pl7.png"
 
 export default class PL extends Component {
     render() {
@@ -34,7 +41,7 @@ export default class PL extends Component {
                     misspelling of a keyword.
                 </p>
                 <Fig
-                    src="pl1.jpeg"
+                    src={pl1}
                     caption="Example of a SyntaxError in Python"
                 />
                 <p>
@@ -112,7 +119,7 @@ export default class PL extends Component {
                     programming languages.{" "}
                 </p>
 
-                <Fig src="pl4.jpeg" caption="Python Logo" />
+                <Fig src={pl4} caption="Python Logo" />
 
                 <p>
                     Python is one of the most famous and popular high-level
@@ -144,7 +151,7 @@ export default class PL extends Component {
                     as it is running, which delays the program. This problem is
                     nonexistent in some other languages, such as Java.{" "}
                 </p>
-                <Fig src="pl6.png" caption="Java Logo" />
+                <Fig src={pl6} caption="Java Logo" />
                 <p>
                     Java, unlike Python, doesn't compile during its runtime.
                     However, it is also very popular and is still used today.
@@ -168,7 +175,7 @@ export default class PL extends Component {
                     anyway, so that's why it is in the high-level language
                     section. Now, back to object oriented programming languages.{" "}
                 </p>
-                <Fig src="pl5.png" caption="C# Logo" />
+                <Fig src={pl5} caption="C# Logo" />
                 <p>
                     C# is another high-level object oriented language. It is
                     different from the languages C and C++, but it does have
@@ -213,7 +220,7 @@ export default class PL extends Component {
                     language, and assembly language.{" "}
                 </p>
 
-                <Fig src="pl2.png" caption="C++ Logo" />
+                <Fig src={pl2} caption="C++ Logo" />
                 <p>
                     C++ is one of the more well known low-level languages. It is
                     considered a low-level language because it requires
@@ -326,7 +333,7 @@ export default class PL extends Component {
                     based languages will still be the main part of programming
                     languages, and for that we need to learn how to write them.{" "}
                 </p>
-                <Fig src="pl7.png" caption="HTML5 Logo" />
+                <Fig src={pl7} caption="HTML5 Logo" />
                 <p>
                     We can safely assume that as time goes on and technology
                     advances, the syntax of programming languages will get
@@ -334,7 +341,7 @@ export default class PL extends Component {
                     English. We're already pretty close to this. Take a language
                     such as Lolcode(2007), which is a very strange language.{" "}
                 </p>
-                <Fig src="pl3.jpeg" caption="LOLCODE Example" />
+                <Fig src={pl3} caption="LOLCODE Example" />
                 <p>
                     The code shown above is surprisingly readable, even though
                     it looks weird and the spellings are completely wrong. If
