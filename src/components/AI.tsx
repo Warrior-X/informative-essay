@@ -4,7 +4,7 @@ import Fig from "./Fig";
 export default class AI extends Component {
     render() {
         return (
-            <div className="mx-auto max-w-[1080px] text-black dark:text-white text">
+            <div className="mx-auto max-w-[720px] text-black dark:text-white text">
                 <h1>The Origins and Future of A.I.</h1>
                 <h2>Introduction</h2>
                 <p>
@@ -123,7 +123,10 @@ export default class AI extends Component {
                     from Machine Learning is that it has more data and more
                     layers.
                 </p>
-                <Fig src="/src/public/ai.jpeg" caption="AI Programmers using Machine Learning" />
+                <Fig
+                    src="/src/public/ai.jpeg"
+                    caption="AI Programmers using Machine Learning"
+                />
                 <p>
                     Computer Vision utilizes something called pattern
                     recognition. Pattern Recognition is when computers are
