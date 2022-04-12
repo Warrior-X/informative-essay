@@ -1,12 +1,12 @@
 import { Component } from "react";
 import Fig from "./Fig";
-import pl1 from "../pl1.jpeg"
-import pl2 from "../pl2.png"
-import pl3 from "../pl3.jpeg"
-import pl4 from "../pl4.jpeg"
-import pl5 from "../pl5.png"
-import pl6 from "../pl6.png"
-import pl7 from "../pl7.png"
+import pl1 from "../public/pl1.jpeg"
+import pl2 from "../public/pl2.png"
+import pl3 from "../public/pl3.jpeg"
+import pl4 from "../public/pl4.jpeg"
+import pl5 from "../public/pl5.png"
+import pl6 from "../public/pl6.png"
+import pl7 from "../public/pl7.png"
 
 export default class PL extends Component {
     render() {
