@@ -1,12 +1,12 @@
 import { Component } from "react";
 import Fig from "./Fig";
-import pl1 from "../public/pl1.jpeg"
-import pl2 from "../public/pl2.png"
-import pl3 from "../public/pl3.jpeg"
-import pl4 from "../public/pl4.jpeg"
-import pl5 from "../public/pl5.png"
-import pl6 from "../public/pl6.png"
-import pl7 from "../public/pl7.png"
+import pl1 from "../public/pl1.jpeg";
+import pl2 from "../public/pl2.png";
+import pl3 from "../public/pl3.jpeg";
+import pl4 from "../public/pl4.jpeg";
+import pl5 from "../public/pl5.png";
+import pl6 from "../public/pl6.png";
+import pl7 from "../public/pl7.png";
 
 export default class PL extends Component {
     render() {
@@ -40,36 +40,34 @@ export default class PL extends Component {
                     cannot convert correctly. A common example of this is a
                     misspelling of a keyword.
                 </p>
-                <Fig
-                    src={pl1}
-                    caption="Example of a SyntaxError in Python"
-                />
+                <Fig src={pl1} caption="Example of a SyntaxError in Python" />
                 <p>
-                    Computers aren't very smart, they just read the code. Even
-                    if you make just a simple typo, they decide they don't
-                    understand anything and nothing works. Just remember,
-                    programming languages are just a way to give instructions to
-                    a computer. But how far do these “instructions” go, and why
-                    did we need them in the first place?
+                    Computers aren&apos;t very smart, they just read the code.
+                    Even if you make just a simple typo, they decide they
+                    don&apos;t understand anything and nothing works. Just
+                    remember, programming languages are just a way to give
+                    instructions to a computer. But how far do these
+                    “instructions” go, and why did we need them in the first
+                    place?
                 </p>
                 <p>
                     The whole point of having programming languages is to be
-                    able to do things we humans couldn't do ourselves. Imagine
-                    having to accurately count exactly 1000 seconds. No human
-                    could do that perfectly, but computers can. As technology
-                    advances, computers become more and more able. Now,
-                    programming languages can do just about anything. They can
-                    make robots move, see things and react appropriately, and
-                    even play games together(robot soccer?). Some robots can
+                    able to do things we humans couldn&apos;t do ourselves.
+                    Imagine having to accurately count exactly 1000 seconds. No
+                    human could do that perfectly, but computers can. As
+                    technology advances, computers become more and more able.
+                    Now, programming languages can do just about anything. They
+                    can make robots move, see things and react appropriately,
+                    and even play games together(robot soccer?). Some robots can
                     even lead people to seats and cook food. Computers
                     classified as supercomputers [definition] can help predict
                     the weather or make a trajectory path for a spaceship
                     landing on the moon, or even on Mars. All of this stuff may
                     not seem important now, but in the future they will be
-                    incredibly useful. Without computers, we wouldn't be able to
-                    do any of this stuff. Computerscience says that computers
-                    process large amounts of complex data that we humans can't
-                    do ourselves.{" "}
+                    incredibly useful. Without computers, we wouldn&apos;t be
+                    able to do any of this stuff. Computerscience says that
+                    computers process large amounts of complex data that we
+                    humans can&apos;t do ourselves.{" "}
                 </p>
                 <p>
                     In order to speak a language, a person has to learn it
@@ -88,26 +86,26 @@ export default class PL extends Component {
                     into bytecode, a different type of language. This code can
                     then be run on any operating system that has the java
                     interpreter on it. These are called virtual machine
-                    languages. They are both fast, and they don't need a new
-                    file to run.{" "}
+                    languages. They are both fast, and they don&apos;t need a
+                    new file to run.{" "}
                 </p>
                 <p>
                     This is what a programming language is, what it is used for,
                     and how the computer understands it. A programming language
                     is just like a language used to talk with computers. It is
-                    used for doing things we humans can't do ourselves because
-                    it is too complex. The computer understands it by converting
-                    it into binary, a different language that the computer can
-                    instantly understand. These languages are called low-level
-                    languages. In the next chapter, we will talk more about
-                    these languages and how they work.
+                    used for doing things we humans can&apos;t do ourselves
+                    because it is too complex. The computer understands it by
+                    converting it into binary, a different language that the
+                    computer can instantly understand. These languages are
+                    called low-level languages. In the next chapter, we will
+                    talk more about these languages and how they work.
                 </p>
 
                 <h1>High-Level Languages</h1>
 
                 <p>
-                    Now that you know what programming languages are, it's time
-                    to break them down some more. Programming languages are
+                    Now that you know what programming languages are, it&apos;s
+                    time to break them down some more. Programming languages are
                     usually classified into two types. There are low-level
                     programming languages and high level programming languages.
                     High level languages are generally easier to understand from
@@ -139,10 +137,10 @@ export default class PL extends Component {
                     execute complex things in just a few lines. Python also has
                     built-in data structures[definition], such as a list or a
                     set. It is also easy to comprehend from either another
-                    coder's perspective or from a person who does not understand
-                    the syntax(the words in the language)[definition]. For
-                    example, the code for displaying the text “Hello World” is
-                    very simple.{" "}
+                    coder&apos;s perspective or from a person who does not
+                    understand the syntax(the words in the
+                    language)[definition]. For example, the code for displaying
+                    the text “Hello World” is very simple.{" "}
                 </p>
                 <p>
                     This quality is called readability[definition]. However, the
@@ -153,9 +151,9 @@ export default class PL extends Component {
                 </p>
                 <Fig src={pl6} caption="Java Logo" />
                 <p>
-                    Java, unlike Python, doesn't compile during its runtime.
-                    However, it is also very popular and is still used today.
-                    According to Britannica, Java was created by Sun
+                    Java, unlike Python, doesn&apos;t compile during its
+                    runtime. However, it is also very popular and is still used
+                    today. According to Britannica, Java was created by Sun
                     Microsystems[definition] in 1995. It was originally designed
                     to help the World Wide Web[definition]. It was equipped with
                     tools that could make it behave like a low-level language,
@@ -168,12 +166,13 @@ export default class PL extends Component {
                     code called byte code. This is then run on an operating
                     system, which should first have the Java interpreter
                     installed on it. Java is what is known as a virtual machine
-                    language, so it doesn't need a whole new file to run but it
-                    also is very fast, which shows it has qualities of both
-                    low-level and high-level languages. But we needed a place to
-                    put Java, and it was more similar to high-level languages
-                    anyway, so that's why it is in the high-level language
-                    section. Now, back to object oriented programming languages.{" "}
+                    language, so it doesn&apos;t need a whole new file to run
+                    but it also is very fast, which shows it has qualities of
+                    both low-level and high-level languages. But we needed a
+                    place to put Java, and it was more similar to high-level
+                    languages anyway, so that&apos;s why it is in the high-level
+                    language section. Now, back to object oriented programming
+                    languages.{" "}
                 </p>
                 <Fig src={pl5} caption="C# Logo" />
                 <p>
@@ -202,9 +201,9 @@ export default class PL extends Component {
                     low-level programming languages are their readability, but
                     most of these languages must be converted into machine code,
                     a low-level language, in order to run. However, maybe we
-                    won't have to do this in the future. In fact, who knows what
-                    programming languages will even be like in the future? We
-                    may not know for sure, but we can take a few guesses.{" "}
+                    won&apos;t have to do this in the future. In fact, who knows
+                    what programming languages will even be like in the future?
+                    We may not know for sure, but we can take a few guesses.{" "}
                 </p>
 
                 <h1>Low-level Languages</h1>
@@ -242,21 +241,22 @@ export default class PL extends Component {
                 <p>
                     Machine language is the most basic programming language, yet
                     it is the most essential. Machine language is code made of
-                    1's and 0's, also called binary. It is the “lowest” of the
-                    low-level languages, because it is the hardest to read.
-                    However, according to Britannica, machine code can operate
-                    almost instantly because the computer can instantly read and
-                    understand it. It is also the only language the computer can
-                    understand. So, all other languages must be converted, or
-                    compiled[definition], into machine language before it can be
-                    run, which is why machine language is the most low-level yet
-                    essential language. Since binary is literally just 1's and
-                    0's, machine language is obviously the hardest language to
-                    both read and write since it doesn't even have letters.
-                    According to Computerhope, machine language can vary within
-                    models of processors because the commands they are made for
-                    differ. However, code from other languages must go through
-                    an assembly language in order to get to machine language.{" "}
+                    1&apos;s and 0&apos;s, also called binary. It is the
+                    “lowest” of the low-level languages, because it is the
+                    hardest to read. However, according to Britannica, machine
+                    code can operate almost instantly because the computer can
+                    instantly read and understand it. It is also the only
+                    language the computer can understand. So, all other
+                    languages must be converted, or compiled[definition], into
+                    machine language before it can be run, which is why machine
+                    language is the most low-level yet essential language. Since
+                    binary is literally just 1&apos;s and 0&apos;s, machine
+                    language is obviously the hardest language to both read and
+                    write since it doesn&apos;t even have letters. According to
+                    Computerhope, machine language can vary within models of
+                    processors because the commands they are made for differ.
+                    However, code from other languages must go through an
+                    assembly language in order to get to machine language.{" "}
                 </p>
                 <p>
                     Assembly language is essentially the helper of machine
@@ -267,10 +267,10 @@ export default class PL extends Component {
                     process for the computer to run the code. According to
                     Britannica, assembly code is much easier to read than
                     machine language. This is because it would have code such as
-                    “add %d $t” rather than a string of just 0's and 1's.
-                    Assembly language is the middleman between binary and other
-                    languages. Assembly language is a way to convert higher
-                    level languages into a set of operations done on
+                    “add %d $t” rather than a string of just 0&apos;s and
+                    1&apos;s. Assembly language is the middleman between binary
+                    and other languages. Assembly language is a way to convert
+                    higher level languages into a set of operations done on
                     registers[definition:blocks of data you can move around].{" "}
                 </p>
 
@@ -286,14 +286,14 @@ export default class PL extends Component {
 
                 <p>
                     Now that you know about the two main types of programming
-                    languages, it's time to talk about what will happen next.
-                    What is the future for programming languages? What will they
-                    become, and how does it affect us? This chapter is mainly
-                    just guesswork on how computer programming will work out.
-                    Based on current evidence, it is likely that there will be
-                    many more languages created in the future, more people will
-                    learn how to code, and the syntax will become more and more
-                    simple.{" "}
+                    languages, it&apos;s time to talk about what will happen
+                    next. What is the future for programming languages? What
+                    will they become, and how does it affect us? This chapter is
+                    mainly just guesswork on how computer programming will work
+                    out. Based on current evidence, it is likely that there will
+                    be many more languages created in the future, more people
+                    will learn how to code, and the syntax will become more and
+                    more simple.{" "}
                 </p>
 
                 <p>
@@ -321,25 +321,27 @@ export default class PL extends Component {
                     As more and more types of programming languages emerge,
                     there will probably be more people who are capable of
                     coding. According to Techrepublic, there would still be some
-                    people who wouldn't know how to code, but many people would
-                    at least know how to do it, even if they don't do it as a
-                    job. There will still be developers in the world, just as
-                    much as there will be chefs, teachers and other professions
-                    we also need. We can definitely say that more people will
-                    learn to code because there will likely be more languages
-                    designed for beginners, like Scratch. Scratch is an easy
-                    drag and drop coding language that teachers kids how to code
-                    and tries to get them interested in coding. However, text
-                    based languages will still be the main part of programming
-                    languages, and for that we need to learn how to write them.{" "}
+                    people who wouldn&apos;t know how to code, but many people
+                    would at least know how to do it, even if they don&apos;t do
+                    it as a job. There will still be developers in the world,
+                    just as much as there will be chefs, teachers and other
+                    professions we also need. We can definitely say that more
+                    people will learn to code because there will likely be more
+                    languages designed for beginners, like Scratch. Scratch is
+                    an easy drag and drop coding language that teachers kids how
+                    to code and tries to get them interested in coding. However,
+                    text based languages will still be the main part of
+                    programming languages, and for that we need to learn how to
+                    write them.{" "}
                 </p>
                 <Fig src={pl7} caption="HTML5 Logo" />
                 <p>
                     We can safely assume that as time goes on and technology
                     advances, the syntax of programming languages will get
                     simpler. At some point, the syntax may just become plain
-                    English. We're already pretty close to this. Take a language
-                    such as Lolcode(2007), which is a very strange language.{" "}
+                    English. We&apos;re already pretty close to this. Take a
+                    language such as Lolcode(2007), which is a very strange
+                    language.{" "}
                 </p>
                 <Fig src={pl3} caption="LOLCODE Example" />
                 <p>

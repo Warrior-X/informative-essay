@@ -30,8 +30,8 @@ export default class AI extends Component {
                     program. Computer programmers train A.I. by giving them huge
                     amounts full of layers of data asking the A.I to take in the
                     data, the A.I then studies the inputted data and finally
-                    makes a suggestion or solution for problems or it's function
-                    that was given. The second-last step is to choose a
+                    makes a suggestion or solution for problems or it&apos;s
+                    function that was given. The second-last step is to choose a
                     programming language fit for your A.I. Some well-known
                     languages used for A.I are Python mostly used for Machine
                     Learning, Java is versatile and because of its Virtual
@@ -47,17 +47,17 @@ export default class AI extends Component {
                 <Fig src="https://www.wgu.edu/content/dam/web-sites/blog-newsroom/blog/images/national/2019/july/4-technologies-that-change-it.jpg" />
                 <p>
                     The place that the specific A.I is placed in is vital
-                    because it is connected to the main 'cause' or function. A.I
-                    is placed in many places throughout the computer. Different
-                    functions are used for different places is something to keep
-                    in mind. Because of the many varieties of A.I it is wide
-                    across the web and throughout apps. The most common place to
-                    find AI is at an Online Search Engine which is a platform
-                    with suggestions on what to search and tons of solutions
-                    based on your search or provides many solutions or answers
-                    to your question. You can find these in daily life like
-                    Google and Safari. A.I is found throughout apps and
-                    websites.
+                    because it is connected to the main &apos;cause&apos; or
+                    function. A.I is placed in many places throughout the
+                    computer. Different functions are used for different places
+                    is something to keep in mind. Because of the many varieties
+                    of A.I it is wide across the web and throughout apps. The
+                    most common place to find AI is at an Online Search Engine
+                    which is a platform with suggestions on what to search and
+                    tons of solutions based on your search or provides many
+                    solutions or answers to your question. You can find these in
+                    daily life like Google and Safari. A.I is found throughout
+                    apps and websites.
                 </p>
                 <h2>Future of A.I.</h2>
                 <p>
@@ -74,7 +74,7 @@ export default class AI extends Component {
                     found in A.I because AI assistants, chatbots, and systems
                     can actually look within your account and use data from that
                     to “help you”. Actually AI systems and development impacting
-                    the future doesn't have to be so dark and scary, AI in
+                    the future doesn&apos;t have to be so dark and scary, AI in
                     computer systems can open up new job opportunities. For
                     example AI system developers, controlling AI and making sure
                     of no corruption, and so much more! AI can be the future for
@@ -88,18 +88,20 @@ export default class AI extends Component {
                     Artificial Intelligence is placed is as vital as the origins
                     and code of A.I. Anything that starts good, has a 50% chance
                     of a good ending, and a 50% chance of a bad ending. Now that
-                    that's done let's move on to how A.I works and trains.
+                    that&apos;s done let&apos;s move on to how A.I works and
+                    trains.
                 </p>
                 <h1>How A.I Works and Trains</h1>
                 <h2>Introduction</h2>
                 <p>
                     Deep down how A.I works is through subsets of it basically
-                    groups and they use those groups and then input that group's
-                    main knowledge and apply it to the A.I. Since there are many
-                    subsets for A.I let’s break it down to three main ones.
-                    First up I’ll be talking about Machine Learning, Deep
-                    Learning, and Computer Vision. Now for A.I training you’ll
-                    be learning about learning and applying, and how it learn
+                    groups and they use those groups and then input that
+                    group&apos;s main knowledge and apply it to the A.I. Since
+                    there are many subsets for A.I let’s break it down to three
+                    main ones. First up I’ll be talking about Machine Learning,
+                    Deep Learning, and Computer Vision. Now for A.I training
+                    you’ll be learning about learning and applying, and how it
+                    learn
                 </p>
                 <h2>The Subsets</h2>
                 <p>
@@ -174,9 +176,9 @@ export default class AI extends Component {
                     scavenger hunt throughout your computer and look around for
                     A.I. Artificial intelligenceI is hidden within your computer
                     even in plain sight! First off we have how A.I is used.
-                    There are tons of different A.I uses so let's shrink it down
-                    to three. A.I is used in voice recognition, Chatbots, and
-                    Online Shopping
+                    There are tons of different A.I uses so let&apos;s shrink it
+                    down to three. A.I is used in voice recognition, Chatbots,
+                    and Online Shopping
                 </p>
                 <h2>A.I use in computers</h2>
                 <p>
@@ -231,10 +233,10 @@ export default class AI extends Component {
                     also predict is what you would like to buy or look at.
                     Online shopping looks at previous data and can maybe use
                     computer vision and interpret someone’s place and decide
-                    what they're missing or what they might want. It can predict
-                    what you want based on previous searches and might even find
-                    the perfect item for you! Because of the feature of
-                    predicting what you might want Retailers can constantly
+                    what they&apos;re missing or what they might want. It can
+                    predict what you want based on previous searches and might
+                    even find the perfect item for you! Because of the feature
+                    of predicting what you might want Retailers can constantly
                     display items you may want, for example Amazon trying to
                     grab your attention to buy buy buy! Some Retailers keep on
                     thinking “It’s all ‘bout that dough”. Sometimes retailers
