@@ -1,11 +1,11 @@
 import { Component } from "react";
-import os from "../assets/os.jpeg"
+import os from "../public/os.jpeg"
 import Fig from "./Fig";
 
 export default class OS extends Component {
     render() {
         return (
-            <div className="text-white">
+            <div className="mx-auto max-w-[720px] text-black dark:text-white text">
                 <h1>What is an Operating System, and what is it used for?</h1>
                 <p>
                     An Operating System, commonly abbreviated as OS, is the
