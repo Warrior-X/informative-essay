@@ -101,6 +101,84 @@ export default class PL extends Component {
                     talk more about these languages and how they work.
                 </p>
 
+                <h1>Low-level Languages</h1>
+
+                <p>
+                    Now that you know what programming languages are, it is time
+                    to distinguish between two types of languages. There are
+                    low-level languages and high-level languages. Low-level
+                    languages are usually faster and easier to understand for
+                    the computer than high-level languages. However, high-level
+                    languages are easier to understand for the reader of the
+                    code. Some examples of low-level languages are C++, machine
+                    language, and assembly language.{" "}
+                </p>
+
+                <Fig src={pl2} caption="C++ Logo" />
+                <p>
+                    C++ is one of the more well known low-level languages. It is
+                    considered a low-level language because it requires
+                    programmers to change the memory in order to run it.
+                    According to Britannica, it was developed by Bjarne
+                    Stroustrupin in 1995. This language is mainly used for
+                    industrial programming. It was initially created as an
+                    extension to C, hence the name C++, according to w3schools.
+                    It is fast, and provides a lot of control over memory, which
+                    is why it is considered a low-level language. However, it
+                    has to have its memory tweaked to run it, which is why it is
+                    a hard language to learn. C++ is found in many appliances
+                    due to its relation to industrial programming. This is
+                    probably why w3schools states that C++ is found in many
+                    operating systems. However, all languages, including C++,
+                    were invented so people could easily write code instead of
+                    writing it in machine language.{" "}
+                </p>
+                <p>
+                    Machine language is the most basic programming language, yet
+                    it is the most essential. Machine language is code made of
+                    1&apos;s and 0&apos;s, also called binary. It is the
+                    “lowest” of the low-level languages, because it is the
+                    hardest to read. However, according to Britannica, machine
+                    code can operate almost instantly because the computer can
+                    instantly read and understand it. It is also the only
+                    language the computer can understand. So, all other
+                    languages must be converted, or compiled[definition], into
+                    machine language before it can be run, which is why machine
+                    language is the most low-level yet essential language. Since
+                    binary is literally just 1&apos;s and 0&apos;s, machine
+                    language is obviously the hardest language to both read and
+                    write since it doesn&apos;t even have letters. According to
+                    Computerhope, machine language can vary within models of
+                    processors because the commands they are made for differ.
+                    However, code from other languages must go through an
+                    assembly language in order to get to machine language.{" "}
+                </p>
+                <p>
+                    Assembly language is essentially the helper of machine
+                    language. It takes the source code from a different language
+                    and translates it into machine code. Then, the computer
+                    takes the machine code and runs it. This process is called
+                    compiling, and almost every language must go through this
+                    process for the computer to run the code. According to
+                    Britannica, assembly code is much easier to read than
+                    machine language. This is because it would have code such as
+                    “add %d $t” rather than a string of just 0&apos;s and
+                    1&apos;s. Assembly language is the middleman between binary
+                    and other languages. Assembly language is a way to convert
+                    higher level languages into a set of operations done on
+                    registers[definition:blocks of data you can move around].{" "}
+                </p>
+
+                <p>
+                    These are some of the more well known low-level languages. A
+                    low-level language is one that is fast but cannot be read
+                    easily(just think about machine language). But why did we
+                    need to name them low-level anyway? In the next chapter, we
+                    will discuss high-level languages. They make up the majority
+                    of languages that have to go through assembly language and
+                    become machine language in order to be run.{" "}
+                </p>
+
                 <h1>High-Level Languages</h1>
 
                 <p>
@@ -206,83 +284,7 @@ export default class PL extends Component {
                     We may not know for sure, but we can take a few guesses.{" "}
                 </p>
 
-                <h1>Low-level Languages</h1>
-
-                <p>
-                    Now that you know what programming languages are, it is time
-                    to distinguish between two types of languages. There are
-                    low-level languages and high-level languages. Low-level
-                    languages are usually faster and easier to understand for
-                    the computer than high-level languages. However, high-level
-                    languages are easier to understand for the reader of the
-                    code. Some examples of low-level languages are C++, machine
-                    language, and assembly language.{" "}
-                </p>
-
-                <Fig src={pl2} caption="C++ Logo" />
-                <p>
-                    C++ is one of the more well known low-level languages. It is
-                    considered a low-level language because it requires
-                    programmers to change the memory in order to run it.
-                    According to Britannica, it was developed by Bjarne
-                    Stroustrupin in 1995. This language is mainly used for
-                    industrial programming. It was initially created as an
-                    extension to C, hence the name C++, according to w3schools.
-                    It is fast, and provides a lot of control over memory, which
-                    is why it is considered a low-level language. However, it
-                    has to have its memory tweaked to run it, which is why it is
-                    a hard language to learn. C++ is found in many appliances
-                    due to its relation to industrial programming. This is
-                    probably why w3schools states that C++ is found in many
-                    operating systems. However, all languages, including C++,
-                    were invented so people could easily write code instead of
-                    writing it in machine language.{" "}
-                </p>
-                <p>
-                    Machine language is the most basic programming language, yet
-                    it is the most essential. Machine language is code made of
-                    1&apos;s and 0&apos;s, also called binary. It is the
-                    “lowest” of the low-level languages, because it is the
-                    hardest to read. However, according to Britannica, machine
-                    code can operate almost instantly because the computer can
-                    instantly read and understand it. It is also the only
-                    language the computer can understand. So, all other
-                    languages must be converted, or compiled[definition], into
-                    machine language before it can be run, which is why machine
-                    language is the most low-level yet essential language. Since
-                    binary is literally just 1&apos;s and 0&apos;s, machine
-                    language is obviously the hardest language to both read and
-                    write since it doesn&apos;t even have letters. According to
-                    Computerhope, machine language can vary within models of
-                    processors because the commands they are made for differ.
-                    However, code from other languages must go through an
-                    assembly language in order to get to machine language.{" "}
-                </p>
-                <p>
-                    Assembly language is essentially the helper of machine
-                    language. It takes the source code from a different language
-                    and translates it into machine code. Then, the computer
-                    takes the machine code and runs it. This process is called
-                    compiling, and almost every language must go through this
-                    process for the computer to run the code. According to
-                    Britannica, assembly code is much easier to read than
-                    machine language. This is because it would have code such as
-                    “add %d $t” rather than a string of just 0&apos;s and
-                    1&apos;s. Assembly language is the middleman between binary
-                    and other languages. Assembly language is a way to convert
-                    higher level languages into a set of operations done on
-                    registers[definition:blocks of data you can move around].{" "}
-                </p>
-
-                <p>
-                    These are some of the more well known low-level languages. A
-                    low-level language is one that is fast but cannot be read
-                    easily(just think about machine language). But why did we
-                    need to name them low-level anyway? In the next chapter, we
-                    will discuss high-level languages. They make up the majority
-                    of languages that have to go through assembly language and
-                    become machine language in order to be run.{" "}
-                </p>
+                <h1>The Future of Programming Languages</h1>
 
                 <p>
                     Now that you know about the two main types of programming
