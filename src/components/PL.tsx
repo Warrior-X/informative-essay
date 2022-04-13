@@ -367,7 +367,7 @@ export default class PL extends Component {
                     yourself will become a developer, or learn to code.{" "}
                 </p>
 
-                <Fig src={pl8} caption="Percentages of GitHub Project Languages (Jason is still gay)" />
+                <Fig src={pl8} caption="Percentages of GitHub Project Languages" />
             </div>
         );
     }
