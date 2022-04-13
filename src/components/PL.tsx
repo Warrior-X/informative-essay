@@ -7,6 +7,7 @@ import pl4 from "../public/pl4.jpeg";
 import pl5 from "../public/pl5.png";
 import pl6 from "../public/pl6.png";
 import pl7 from "../public/pl7.png";
+import pl8 from "../public/pl8.jpeg";
 
 export default class PL extends Component {
     render() {
@@ -365,6 +366,8 @@ export default class PL extends Component {
                     syntax. Due to its higher availability, maybe one day you
                     yourself will become a developer, or learn to code.{" "}
                 </p>
+
+                <Fig src={pl8} caption="Jason is Gay" />
             </div>
         );
     }

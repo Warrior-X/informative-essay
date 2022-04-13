@@ -1,5 +1,6 @@
 import { Component } from "react";
 import Fig from "./Fig";
+import ai1 from "../public/ai.jpeg"
 
 export default class AI extends Component {
     render() {
@@ -126,7 +127,7 @@ export default class AI extends Component {
                     layers.
                 </p>
                 <Fig
-                    src="/src/public/ai.jpeg"
+                    src={ai1}
                     caption="AI Programmers using Machine Learning"
                 />
                 <p>
