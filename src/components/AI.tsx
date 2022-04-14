@@ -7,6 +7,7 @@ import ai4 from "../public/ai4.jpeg";
 import ai5 from "../public/ai5.jpeg";
 import ai6 from "../public/ai6.jpeg";
 import ai7 from "../public/ai7.jpeg";
+import FactBox from "./FactBox";
 
 export default class AI extends Component {
     render() {
