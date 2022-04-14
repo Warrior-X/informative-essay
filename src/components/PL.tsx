@@ -369,7 +369,7 @@ export default class PL extends Component {
 
                 <Fig
                     src={pl8}
-                    caption="Percentages of GitHub Project Languages"
+                    caption="Github Is A Platform To Store And Manage Projects"
                 />
             </div>
         );
