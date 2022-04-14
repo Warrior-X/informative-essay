@@ -67,7 +67,7 @@ const Home = () => {
                             Programming Languages
                         </h3>
                         <p className="dark:text-gray-400">
-                            Explore what lets computers run and what tells them
+                            By Jason<br />Explore what lets computers run and what tells them
                             what to do!
                         </p>
                     </div>
@@ -83,7 +83,7 @@ const Home = () => {
                             Operating Systems
                         </h3>
                         <p className="dark:text-gray-400">
-                            Explore what lets you interact with a computer and
+                            By Ruiyu<br />Explore what lets you interact with a computer and
                             how it works!
                         </p>
                     </div>
@@ -99,7 +99,7 @@ const Home = () => {
                             Artificial Intelligence
                         </h3>
                         <p className="dark:text-gray-400">
-                            Explore the mysterious world of computers that learn
+                            By Rohan<br />Explore the mysterious world of computers that learn
                             and how it&apos;s done!
                         </p>
                     </div>
