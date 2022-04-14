@@ -1,6 +1,12 @@
 import { Component } from "react";
 import Fig from "./Fig";
-import ai1 from "../public/ai.jpeg"
+import ai1 from "../public/ai.jpeg";
+import ai2 from "../public/ai2.jpeg";
+import ai3 from "../public/ai3.jpeg";
+import ai4 from "../public/ai4.jpeg";
+import ai5 from "../public/ai5.jpeg";
+import ai6 from "../public/ai6.jpeg";
+import ai7 from "../public/ai7.jpeg";
 
 export default class AI extends Component {
     render() {
@@ -141,7 +147,15 @@ export default class AI extends Component {
                     can look around and take photographs or video in present
                     time as well as interpreting the surroundings.
                 </p>
+                <Fig
+                    src={ai4}
+                    caption="Source: https://www.geeksforgeeks.org/how-machine-learning-and-artificial-intelligence-will-impact-global-industries-in-2020"
+                />
                 <h2>Learning and Applying</h2>
+                <Fig
+                    src={ai7}
+                    caption="Source: https://www.infoworld.com/article/3622237/5-ai-startups-leading-mlops.html"
+                />
                 <p>
                     Since you now have at least some knowledge about A.I you may
                     be wondering about how it learns. How Artificial
@@ -223,6 +237,12 @@ export default class AI extends Component {
                     A.I’s power and variety of uses can be shown well in
                     ChatBots and Online Shopping Features.
                 </p>
+                <Fig
+                    src={ai3}
+                    caption="Source: https://www.salesforce.com/br/atendimento-ao-cliente/chatbot/"
+                />
+
+                <h2>Shopping Features</h2>
                 <p>
                     Now onto Online Shopping. A.I is used in Online shopping.
                     This may be shocking but it can be used in this category and
@@ -246,6 +266,10 @@ export default class AI extends Component {
                     and over again just to learn about customers and what they
                     might buy.
                 </p>
+                <Fig
+                    src={ai5}
+                    caption="Source: https://www.mygreatlearning.com/blog/top-powerful-ai-applications-for-e-commerce"
+                />
                 <h1>Chapter 4: Finding A.I in Daily Life</h1>
                 <h2>Introduction</h2>
                 <p>
@@ -262,6 +286,10 @@ export default class AI extends Component {
                     their purposes for this chapter.
                 </p>
                 <h2>Google Apps</h2>
+                <Fig
+                    src={ai6}
+                    caption="Source: https://www.theverge.com/22286339/google-drive-storage-more-space-how-to-photos-files"
+                />
                 <p>
                     A.I can be found in Various Google Apps. Mainly I’ll be
                     focusing on Google Docs, an app used for writing down
@@ -295,6 +323,7 @@ export default class AI extends Component {
                     searches, solutions on related topics as well. Google is an
                     absolute definition of an Online Search Engine.
                 </p>
+                <Fig src={ai2} caption="Source: https://copyleaks.com" />
                 <h2>Educational Tools</h2>
                 <p>
                     A.I can be found in a variety of Educational Tools. For

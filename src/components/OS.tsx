@@ -1,5 +1,5 @@
 import { Component } from "react";
-import os from "../public/os.jpeg"
+import os from "../public/os.jpeg";
 import Fig from "./Fig";
 
 export default class OS extends Component {
