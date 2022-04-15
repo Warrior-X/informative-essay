@@ -13,7 +13,7 @@ import FactBox from "./FactBox";
 export default class PL extends Component {
     render() {
         return (
-            <div className="mx-auto max-w-[720px] text-black dark:text-white text">
+            <div className="mx-auto w-2/3 text-black dark:text-white text">
                 <h1>Table of Contents</h1>
                 <ul className="list-decimal list-inside indent-8">
                     <li>
@@ -29,6 +29,9 @@ export default class PL extends Component {
                         <a href="#future">
                             The Future of Programming Languages
                         </a>
+                    </li>
+                    <li>
+                        <a href="#bib">Bibliography</a>
                     </li>
                 </ul>
                 <h1 id="what-are">What are programming languages?</h1>
@@ -60,6 +63,10 @@ export default class PL extends Component {
                     cannot convert correctly. A common example of this is a
                     misspelling of a keyword.
                 </p>
+                <FactBox
+                    name="Did you know?"
+                    content="According to HOPL, there are around 9000 commercial-use programming languages ever created, whereas there are only 7100 spoken languages."
+                />
                 <Fig src={pl1} caption="Example of a SyntaxError in Python" />
                 <p>
                     Computers aren&apos;t very smart, they just read the code.
@@ -120,9 +127,7 @@ export default class PL extends Component {
                     called low-level languages. In the next chapter, we will
                     talk more about these languages and how they work.
                 </p>
-
                 <h1 id="low-level">Low-level Languages</h1>
-
                 <p>
                     Now that you know what programming languages are, it is time
                     to distinguish between two types of languages. There are
@@ -133,8 +138,10 @@ export default class PL extends Component {
                     code. Some examples of low-level languages are C++, machine
                     language, and assembly language.{" "}
                 </p>
-
-                <Fig src={pl2} caption="C++ Logo Source: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/240px-ISO_C%2B%2B_Logo.svg.png" />
+                <Fig
+                    src={pl2}
+                    caption="C++ Logo Source: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/240px-ISO_C%2B%2B_Logo.svg.png"
+                />
                 <p>
                     C++ is one of the more well known low-level languages. It is
                     considered a low-level language because it requires
@@ -153,6 +160,11 @@ export default class PL extends Component {
                     were invented so people could easily write code instead of
                     writing it in machine language.{" "}
                 </p>
+                <FactBox
+                    name="Did you know?"
+                    content="C++ used to be considered a high level programming language before it was changed to a low level one?"
+                />
+                f
                 <Fig src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Apple_II_Monitor.png" />
                 <p>
                     Machine language is the most basic programming language, yet
@@ -189,7 +201,6 @@ export default class PL extends Component {
                     higher level languages into a set of operations done on
                     registers[definition:blocks of data you can move around].{" "}
                 </p>
-
                 <p>
                     These are some of the more well known low-level languages. A
                     low-level language is one that is fast but cannot be read
@@ -199,9 +210,7 @@ export default class PL extends Component {
                     of languages that have to go through assembly language and
                     become machine language in order to be run.{" "}
                 </p>
-
                 <h1 id="high-level">High-Level Languages</h1>
-
                 <p>
                     Now that you know what programming languages are, it&apos;s
                     time to break them down some more. Programming languages are
@@ -215,8 +224,10 @@ export default class PL extends Component {
                     Python, Java, and C# are all very well received high level
                     programming languages.{" "}
                 </p>
-
-                <Fig src={pl4} caption="Python Logo Source: https://www.python.org/static/community_logos/python-logo.png" />
+                <Fig
+                    src={pl4}
+                    caption="Python Logo Source: https://www.python.org/static/community_logos/python-logo.png"
+                />
                 <FactBox
                     name="Did you know?"
                     content="Guido Van Rossum, the creator of Python, currently works at Microsoft?"
@@ -251,7 +262,10 @@ export default class PL extends Component {
                     as it is running, which delays the program. This problem is
                     nonexistent in some other languages, such as Java.{" "}
                 </p>
-                <Fig src={pl6} caption="Java Logo Source: https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/242px-Java_programming_language_logo.svg.png" />
+                <Fig
+                    src={pl6}
+                    caption="Java Logo Source: https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/242px-Java_programming_language_logo.svg.png"
+                />
                 <p>
                     Java, unlike Python, doesn&apos;t compile during its
                     runtime. However, it is also very popular and is still used
@@ -276,7 +290,10 @@ export default class PL extends Component {
                     language section. Now, back to object oriented programming
                     languages.{" "}
                 </p>
-                <Fig src={pl5} caption="C# Logo Source: https://www.avenga.com/wp-content/uploads/2020/11/C-Sharp.png" />
+                <Fig
+                    src={pl5}
+                    caption="C# Logo Source: https://www.avenga.com/wp-content/uploads/2020/11/C-Sharp.png"
+                />
                 <p>
                     C# is another high-level object oriented language. It is
                     different from the languages C and C++, but it does have
@@ -295,7 +312,6 @@ export default class PL extends Component {
                     C# is a good all purpose programming language that can do
                     just about anything.{" "}
                 </p>
-
                 <p>
                     In conclusion, this is how high-level programming languages
                     work and what they are. Some examples of them are Python,
@@ -307,9 +323,7 @@ export default class PL extends Component {
                     what programming languages will even be like in the future?
                     We may not know for sure, but we can take a few guesses.{" "}
                 </p>
-
                 <h1 id="future">The Future of Programming Languages</h1>
-
                 <p>
                     Now that you know about the two main types of programming
                     languages, it&apos;s time to talk about what will happen
@@ -321,7 +335,6 @@ export default class PL extends Component {
                     will learn how to code, and the syntax will become more and
                     more simple.{" "}
                 </p>
-
                 <p>
                     It is almost certain that there will be many more
                     programming languages created in the future. According to
@@ -360,7 +373,10 @@ export default class PL extends Component {
                     programming languages, and for that we need to learn how to
                     write them.{" "}
                 </p>
-                <Fig src={pl7} caption="HTML5 Logo Source: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/240px-HTML5_logo_and_wordmark.svg.png" />
+                <Fig
+                    src={pl7}
+                    caption="HTML5 Logo Source: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/240px-HTML5_logo_and_wordmark.svg.png"
+                />
                 <p>
                     We can safely assume that as time goes on and technology
                     advances, the syntax of programming languages will get
@@ -369,7 +385,10 @@ export default class PL extends Component {
                     language such as Lolcode(2007), which is a very strange
                     language.{" "}
                 </p>
-                <Fig src={pl3} caption="LOLCODE Example Source: https://musingsofajuniorengineer.files.wordpress.com/2017/10/72cc2-lolcode_example.png?w=320&h=141&zoom=2" />
+                <Fig
+                    src={pl3}
+                    caption="LOLCODE Example Source: https://musingsofajuniorengineer.files.wordpress.com/2017/10/72cc2-lolcode_example.png?w=320&h=141&zoom=2"
+                />
                 <p>
                     The code shown above is surprisingly readable, even though
                     it looks weird and the spellings are completely wrong. If
@@ -389,11 +408,58 @@ export default class PL extends Component {
                     syntax. Due to its higher availability, maybe one day you
                     yourself will become a developer, or learn to code.{" "}
                 </p>
-
                 <Fig
                     src={pl8}
                     caption="Github Is A Platform To Store And Manage Projects"
                 />
+                <h1 id="bib">Bibliography</h1>
+                <ol className="list-decimal list-inside indent-6">
+                    <li>
+                        <a href="https://www.britannica.com/technology/computer-programming-language">
+                            https://www.britannica.com/technology/computer-programming-language
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.python.org/doc/essays/blurb/">
+                            https://www.python.org/doc/essays/blurb/
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.java.com/en/about/whatis_java.jsp">
+                            https://www.java.com/en/about/whatis_java.jsp
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/">
+                            https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/
+                        </a>{" "}
+                    </li>
+                    <li>
+                        <a href="https://www.w3schools.com/cpp/cpp_intro.asp">
+                            https://www.w3schools.com/cpp/cpp_intro.asp
+                        </a>{" "}
+                    </li>
+                    <li>
+                        <a href="https://www.computerhope.com/jargon/m/machlang.htm">
+                            https://www.computerhope.com/jargon/m/machlang.htm
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.computerscience.org/resources/computer-programming-languages/">
+                            https://www.computerscience.org/resources/computer-programming-languages/
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www2.hawaii.edu/~takebaya/ics111/process_of_programming/process_of_programming.html">
+                            http://www2.hawaii.edu/~takebaya/ics111/process_of_programming/process_of_programming.html
+                        </a>{" "}
+                    </li>
+                    <li>
+                        <a href="https://www.techrepublic.com/article/the-future-of-programming-languages-what-to-expect-in-this-new-infrastructure-as-code-world/">
+                            https://www.techrepublic.com/article/the-future-of-programming-languages-what-to-expect-in-this-new-infrastructure-as-code-world/
+                        </a>
+                    </li>
+                </ol>
             </div>
         );
     }

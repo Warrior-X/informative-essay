@@ -19,7 +19,10 @@ export default class Header extends Component {
                         <Link to="/os">Operating Systems</Link>
                     </span>
                     <span className="p-3 mx-2 bg-slate-400 hover:bg-slate-500 dark:bg-[#25253c] dark:hover:bg-[#2f2f4a] rounded-lg">
-                        <Link to="/ai">Artificial Intellegience</Link>
+                        <Link to="/ai">Artificial Intellegence</Link>
+                    </span>
+                    <span className="p-3 mx-2 bg-slate-400 hover:bg-slate-500 dark:bg-[#25253c] dark:hover:bg-[#2f2f4a] rounded-lg">
+                        <Link to="/ge">Computer Hardware</Link>
                     </span>
                 </div>
             </div>

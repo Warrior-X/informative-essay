@@ -44,11 +44,29 @@ h3 {
     text-indent: 2rem;
 }
 
-ol a {
+ol a, .text a {
     color: #0000ff;
     text-decoration: underline;
 }
 
-.dark ol a {
-    color: #add8e6;
+.dark ol a, .dark .text a {
+    color: #98a8e6;
+}
+
+.app img {
+    width: 560px;
+}
+
+h1:target, h2:target, h3:target {
+    animation: target 2s ease
+}
+
+@keyframes target {
+    from {
+        background-color: yellow;
+    }
+
+    to {
+        background-color: transparent;
+    }
 }

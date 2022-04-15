@@ -1,48 +1,111 @@
 import { Component } from "react";
+import { Link } from "react-router-dom";
 import os from "../public/os.jpeg";
 import Fig from "./Fig";
 
 export default class OS extends Component {
     render() {
         return (
-            <div className="mx-auto max-w-[720px] text-black dark:text-white text">
+            <div className="mx-auto w-2/3 text-black dark:text-white text">
                 <h1>Table of Contents</h1>
                 <ol className="list-decimal list-inside indent-8">
-                    <li><a href="#what-is">What is an Operating System, and what is it used for?</a></li>
+                    <li>
+                        <a href="#what-is">
+                            What is an Operating System, and what is it used
+                            for?
+                        </a>
+                    </li>
                     <ol className="list-decimal list-inside indent-16">
-                        <li><a href="#what-is-computers">Usage in Personal Computers</a></li>
-                        <li><a href="#what-is-servers">Usage in Servers & Mainframes</a></li>
-                        <li><a href="#what-is-sys">Usage in Embedded Systems</a></li>
+                        <li>
+                            <a href="#what-is-computers">
+                                Usage in Personal Computers
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#what-is-servers">
+                                Usage in Servers & Mainframes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#what-is-sys">Usage in Embedded Systems</a>
+                        </li>
                     </ol>
-                    <li><a href="#parts">Parts of an Operating System</a></li>
+                    <li>
+                        <a href="#parts">Parts of an Operating System</a>
+                    </li>
                     <ol className="list-decimal list-inside indent-16">
-                        <li><a href="#parts-kernel">Kernel</a></li>
+                        <li>
+                            <a href="#parts-kernel">Kernel</a>
+                        </li>
                         <ol className="list-decimal list-inside indent-28">
-                            <li><a href="#parts-kernel-exec">Program Execution</a></li>
-                            <li><a href="#parts-kernel-mem">Memory Management</a></li>
-                            <li><a href="#parts-kernel-sys">File Systems</a></li>
+                            <li>
+                                <a href="#parts-kernel-exec">
+                                    Program Execution
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#parts-kernel-mem">
+                                    Memory Management
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#parts-kernel-sys">File Systems</a>
+                            </li>
                         </ol>
-                        <li><a href="#parts-interface">User Interface</a></li>
-                        <li><a href="#parts-app">Applications</a></li>
+                        <li>
+                            <a href="#parts-interface">User Interface</a>
+                        </li>
+                        <li>
+                            <a href="#parts-app">Applications</a>
+                        </li>
                     </ol>
-                    <li><a href="#popular">Popular Operating Systems</a></li>
+                    <li>
+                        <a href="#popular">Popular Operating Systems</a>
+                    </li>
                     <ol className="list-decimal list-inside indent-16">
-                        <li><a href="#popular-bsd">BSD</a></li>
-                        <li><a href="#popular-linux">Linux</a></li>
-                        <li><a href="#popular-windows">Windows</a></li>
-                        <li><a href="#popular-macos">MacOS</a></li>
+                        <li>
+                            <a href="#popular-bsd">BSD</a>
+                        </li>
+                        <li>
+                            <a href="#popular-linux">Linux</a>
+                        </li>
+                        <li>
+                            <a href="#popular-windows">Windows</a>
+                        </li>
+                        <li>
+                            <a href="#popular-macos">MacOS</a>
+                        </li>
                     </ol>
-                    <li><a href="#systems">Programs & Operating Systems</a></li>
+                    <li>
+                        <a href="#systems">Programs & Operating Systems</a>
+                    </li>
                     <ol className="list-decimal list-inside indent-16">
-                        <li><a href="#systems-programs">Porting Programs</a></li>
+                        <li>
+                            <a href="#systems-programs">Porting Programs</a>
+                        </li>
                         <ol className="list-decimal list-inside indent-28">
-                            <li><a href="#systems-programs-layers">Using Abstraction Layers</a></li>
-                            <li><a href="#systems-programs-protocols">Using Standardized Protocols</a></li>
+                            <li>
+                                <a href="#systems-programs-layers">
+                                    Using Abstraction Layers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#systems-programs-protocols">
+                                    Using Standardized Protocols
+                                </a>
+                            </li>
                         </ol>
-                        <li><a href="#systems-execution">Execution</a></li>
+                        <li>
+                            <a href="#systems-execution">Execution</a>
+                        </li>
                     </ol>
+                    <li>
+                        <a href="#bib">Bibliography</a>
+                    </li>
                 </ol>
-                <h1 id="what-is">What is an Operating System, and what is it used for?</h1>
+                <h1 id="what-is">
+                    What is an Operating System, and what is it used for?
+                </h1>
                 <p>
                     An Operating System, commonly abbreviated as OS, is the
                     thing that allows your computer to run. It contains
@@ -96,8 +159,8 @@ export default class OS extends Component {
                 <h2 id="what-is-servers">Usage in Servers & Mainframes</h2>
                 <p>
                     Since every computer needs an Operating System to do
-                    anything, it&apos;s obvious that servers [glossary] and
-                    mainframes [glossary] need them too. However, most of these
+                    anything, it&apos;s obvious that servers [glossary] and 
+                    <Link to="/glos#mainframes">mainframes</Link> need them too. However, most of these
                     systems have headless [glossary] operating systems, which
                     means that they don&apos;t have a GUI [link]. This is
                     because basically no one will be using the computers
@@ -231,20 +294,21 @@ export default class OS extends Component {
                     Because different people&apos;s needs differ, different
                     operating systems have been developed to conform to the
                     needs of the people.
-                </p> 
+                </p>
                 <h2 id="popular-bsd">BSD</h2>
                 <p>
                     Usually referring to its descendant operating systems, BSD
                     is a discontinued operating system based on Unix [glossary].
                     While it takes up almost no market share, it&apos;s famous
                     because of the things that it&apos;s contributed to the
-                    knowledge of computers today1, which include the editor vi
+                    knowledge of computers today, which include the editor vi
                     and the C Shell. Today&apos;s internet protocols, including
                     File Transfer Protocol (ftp://), HyperText Transfer Protocol
                     (http://), and more were inspired/created by BSD. In fact,
                     the World Wide Web was first demonstrated using an operating
                     system based on BSD.
                 </p>
+                <Fig src="https://www.famouslogos.us/images/linux-logo.jpg" />
                 <h2 id="popular-linux">Linux</h2>
                 <p>
                     Linux is an open-source operating system, also based on Unix
@@ -258,6 +322,7 @@ export default class OS extends Component {
                     doesn&apos;t need these features, they&apos;ll probably want
                     to use Windows.
                 </p>
+                <Fig src="https://media.kasperskydaily.com/wp-content/uploads/sites/92/2020/01/23052753/rip-windows-seven-featured.jpg" />
                 <h2 id="popular-windows">Windows</h2>
                 <p>
                     The most used operating system in the computer world is
@@ -318,7 +383,9 @@ export default class OS extends Component {
                     (if you are making a program that needs a lot of computing
                     power, such as a game, this will be very important).
                 </p>
-                <h3 id="systems-programs-protocols">Using Standardized Protocols</h3>
+                <h3 id="systems-programs-protocols">
+                    Using Standardized Protocols
+                </h3>
                 <p>
                     If you want to have complete control over your programs,
                     however, you can just follow a standardized protocol that
@@ -353,8 +420,20 @@ export default class OS extends Component {
                     PID) and assigned a priority level (to determine whether to
                     run this program when the memory runs out).
                 </p>
-                Footnotes
-                https://en.wikipedia.org/wiki/Operating_system#Program_execution
+
+                <h1 id="bib">Bibliography</h1>
+                <ol className="list-decimal list-inside indent-6">
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Operating_system#Program_execution">
+                            https://en.wikipedia.org/wiki/Operating_system#Program_execution
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Kernel_(operating_system)">
+                            https://en.wikipedia.org/wiki/Kernel_(operating_system)
+                        </a>
+                    </li>
+                </ol>
             </div>
         );
     }

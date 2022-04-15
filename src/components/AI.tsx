@@ -12,37 +12,80 @@ import FactBox from "./FactBox";
 export default class AI extends Component {
     render() {
         return (
-            <div className="mx-auto max-w-[720px] text-black dark:text-white text">
+            <div className="mx-auto w-2/3 text-black dark:text-white text">
                 <h1>Table of Contents</h1>
                 <ol className="list-decimal list-inside indent-8">
-                    <li><a href="#origin">The Origins and Future of A.I.</a></li>
+                    <li>
+                        <a href="#origin">The Origins and Future of A.I.</a>
+                    </li>
                     <ol className="list-decimal list-inside indent-16">
-                        <li><a href="#origin-intro">Introduction</a></li>
-                        <li><a href="#origin-origin">Origins of A.I.</a></li>
-                        <li><a href="#origin-future">Future of A.I.</a></li>
-                        <li><a href="#origin-conclusion">Conclusion</a></li>
+                        <li>
+                            <a href="#origin-intro">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="#origin-origin">Origins of A.I.</a>
+                        </li>
+                        <li>
+                            <a href="#origin-future">Future of A.I.</a>
+                        </li>
+                        <li>
+                            <a href="#origin-conclusion">Conclusion</a>
+                        </li>
                     </ol>
-                    <li><a href="#train">How A.I Works and Trains</a></li>
+                    <li>
+                        <a href="#train">How A.I Works and Trains</a>
+                    </li>
                     <ol className="list-decimal list-inside indent-16">
-                        <li><a href="#train-intro">Introduction</a></li>
-                        <li><a href="#train-subsets">The Subsets</a></li>
-                        <li><a href="#train-learn">Learning and Applying</a></li>
-                        <li><a href="#train-conclusion">Conclusion</a></li>
+                        <li>
+                            <a href="#train-intro">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="#train-subsets">The Subsets</a>
+                        </li>
+                        <li>
+                            <a href="#train-learn">Learning and Applying</a>
+                        </li>
+                        <li>
+                            <a href="#train-conclusion">Conclusion</a>
+                        </li>
                     </ol>
-                    <li><a href="#used">How A.I is Used</a></li>
+                    <li>
+                        <a href="#used">How A.I is Used</a>
+                    </li>
                     <ol className="list-decimal list-inside indent-16">
-                        <li><a href="#used-intro">Introduction</a></li>
-                        <li><a href="#used-computers">The Subsets</a></li>
-                        <li><a href="#used-shopping">Learning and Applying</a></li>
-                        <li><a href="#used-conclusion">Conclusion</a></li>
+                        <li>
+                            <a href="#used-intro">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="#used-computers">The Subsets</a>
+                        </li>
+                        <li>
+                            <a href="#used-shopping">Learning and Applying</a>
+                        </li>
+                        <li>
+                            <a href="#used-conclusion">Conclusion</a>
+                        </li>
                     </ol>
-                    <li><a href="#life">Finding A.I in Daily Life</a></li>
+                    <li>
+                        <a href="#life">Finding A.I in Daily Life</a>
+                    </li>
                     <ol className="list-decimal list-inside indent-16">
-                        <li><a href="#life-intro">Introduction</a></li>
-                        <li><a href="#life-google">The Subsets</a></li>
-                        <li><a href="#life-edu">Learning and Applying</a></li>
-                        <li><a href="#life-conclusion">Conclusion</a></li>
+                        <li>
+                            <a href="#life-intro">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="#life-google">The Subsets</a>
+                        </li>
+                        <li>
+                            <a href="#life-edu">Learning and Applying</a>
+                        </li>
+                        <li>
+                            <a href="#life-conclusion">Conclusion</a>
+                        </li>
                     </ol>
+                    <li>
+                        <a href="#bib">Bibliography</a>
+                    </li>
                 </ol>
                 <h1 id="origin">The Origins and Future of A.I.</h1>
                 <h2 id="origin-intro">Introduction</h2>
@@ -119,6 +162,7 @@ export default class AI extends Component {
                     of no corruption, and so much more! AI can be the future for
                     good and bad just found in your computer.
                 </p>
+                <Fig src="https://i0.wp.com/bdtechtalks.com/wp-content/uploads/2018/12/artificial-intelligence-deep-learning-neural-networks-ai-1.jpg" />
                 <h2 id="origin-conclusion">Conclusion</h2>
                 <p>
                     Origins of A.I and the future of A.I can be bad and can be
@@ -143,6 +187,10 @@ export default class AI extends Component {
                     learn
                 </p>
                 <h2 id="train-subset">The Subsets</h2>
+                <FactBox
+                    name="Did you know?"
+                    content="There are over 20 subsets of AI, but they're all related in a way"
+                />
                 <p>
                     Machine Learning is a main group you may have heard of
                     before, well you may not have known that it is actually part
@@ -303,7 +351,13 @@ export default class AI extends Component {
                     caption="Source: https://www.mygreatlearning.com/blog/top-powerful-ai-applications-for-e-commerce"
                 />
                 <h2 id="used-conclusion">Conclusion</h2>
-	<p>Companies these days are using high tech in some cases artificial intelligence systems. Now remember that everywhere you look A.I is there.Shopping, chatbots, voice recognition. A.I use is there for everything you only just started the journey of A.I. So welcome to the new age.</p>
+                <p>
+                    Companies these days are using high tech in some cases
+                    artificial intelligence systems. Now remember that
+                    everywhere you look A.I is there.Shopping, chatbots, voice
+                    recognition. A.I use is there for everything you only just
+                    started the journey of A.I. So welcome to the new age.
+                </p>
                 <h1 id="life">Chapter 4: Finding A.I in Daily Life</h1>
                 <h2 id="life-intro">Introduction</h2>
                 <p>
@@ -374,8 +428,52 @@ export default class AI extends Component {
                     can also be like Content Scanning Software.
                 </p>
                 <h2 id="life-conclusion">Conclusion</h2>
-	<p>There is so much stuff to learn about A.I there are so many types of technological ideas to learn about. I quote myself we barely touched the surface of A.I there are so many more types of subsets, uses, and other places to find Artificial Intelligence systems in daily life, I even have different theories on the outcome of the the future of A.I. </p>
-
+                <p>
+                    There is so much stuff to learn about A.I there are so many
+                    types of technological ideas to learn about. I quote myself
+                    we barely touched the surface of A.I there are so many more
+                    types of subsets, uses, and other places to find Artificial
+                    Intelligence systems in daily life, I even have different
+                    theories on the outcome of the the future of A.I.{" "}
+                </p>
+                <h1 id="bib">Bibliography</h1>
+                <ol className="list-decimal list-inside indent-6">
+                    <li>
+                        <a href="https://www.wgu.edu/blog/what-ai-technology-how-used2003.html">
+                            https://www.wgu.edu/blog/what-ai-technology-how-used2003.html
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.usatoday.com/story/news/factcheck/2021/07/28/fact-check-facebook-chatbots-werent-shut-down-creating-language/8040006002/">
+                            https://www.usatoday.com/story/news/factcheck/2021/07/28/fact-check-facebook-chatbots-werent-shut-down-creating-language/8040006002/
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.science.org/content/article/how-researchers-are-teaching-ai-learn-child">
+                            https://www.science.org/content/article/how-researchers-are-teaching-ai-learn-child
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.telusinternational.com/articles/how-to-train-ai">
+                            https://www.telusinternational.com/articles/how-to-train-ai
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.salesforce.com/br/atendimento-ao-cliente/chatbot/">
+                            https://www.salesforce.com/br/atendimento-ao-cliente/chatbot/
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://nanonets.com/blog/document-ai/#technology-behind-google-document-ai">
+                            https://nanonets.com/blog/document-ai/#technology-behind-google-document-ai
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.teksystems.com/en/insights/article/how-to-use-google-docai">
+                            https://www.teksystems.com/en/insights/article/how-to-use-google-docai
+                        </a>
+                    </li>
+                </ol>
             </div>
         );
     }
