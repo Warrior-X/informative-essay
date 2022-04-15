@@ -158,9 +158,9 @@ export default class OS extends Component {
                 <h2 id="what-is-servers">Usage in Servers & Mainframes</h2>
                 <p>
                     Since every computer needs an Operating System to do
-                    anything, it&apos;s obvious that <Link to="/glos#servers">servers</Link> and 
-                    <Link to="/glos#mainframes">mainframes</Link> need them too. However, most of these
-                    systems have <Link to="/glos#headless">headless</Link> operating systems, which
+                    anything, it&apos;s obvious that <a href="/glos#servers">servers</a> and 
+                    <a href="/glos#mainframes">mainframes</a> need them too. However, most of these
+                    systems have <a href="/glos#headless">headless</a> operating systems, which
                     means that they don&apos;t have a <a href="#parts-interface">GUI</a>. This is
                     because basically no one will be using the computers
                     physically, so it&apos;s okay if they don&apos;t have pretty
@@ -188,7 +188,7 @@ export default class OS extends Component {
                     -- It&apos;s present in refrigerators, thermostats, etc.
                     Because all of these take computers to operate, they need
                     operating systems. Because they don&apos;t have space to
-                    have super powerful <Link to="/glos#processors">processors</Link>, they have to use
+                    have super powerful <a href="/glos#processors">processors</a>, they have to use
                     <a href="#popular-linux">Linux</a> for their operating system, like servers.
                     However, another thing that causes them to have to do this
                     is the fact that they have to create their own <a href="#parts-interface">GUI</a>.
@@ -236,7 +236,7 @@ export default class OS extends Component {
                 <p>
                     Another very important part of the kernel is memory
                     management, which controls memory space (the information
-                    stored in <Link to="/glos#ram-sticks">RAM sticks</Link> which stores temporary
+                    stored in <a href="/glos#ram-sticks">RAM sticks</a> which stores temporary
                     information related to the current running programs). This
                     usually stores both running program instructions (what the
                     program tells the computer to do) and the program data1. The
@@ -248,7 +248,7 @@ export default class OS extends Component {
                 <p>
                     One last important thing that&apos;s in the kernel is the
                     file system. The file system is the system that the
-                    computer&apos;s <Link to="/glos#hard-drive">hard drive</Link> or <Link to="/glos#ssd">SSD</Link> uses
+                    computer&apos;s <a href="/glos#hard-drive">hard drive</a> or <a href="/glos#ssd">SSD</a> uses
                     to store the files and folders in your computer. When you
                     open the file explorer (on Windows) or file app (on macOS),
                     you are essentially asking the kernel to give you a list of
@@ -271,7 +271,7 @@ export default class OS extends Component {
                     However, when people started to adopt computers, it would be
                     a sharp learning curve if they had to memorize all the
                     commands a computer could execute and what they do. Because
-                    of this, people created a <Link to="/glos#gpu">GPU</Link>, which would do the
+                    of this, people created a <a href="/glos#gpu">GPU</a>, which would do the
                     necessary calculations that have to do with drawing graphics
                     (basically images) to the screen. This evolved into the
                     graphical user interfaces we see today on everything from a
@@ -297,7 +297,7 @@ export default class OS extends Component {
                 <h2 id="popular-bsd">BSD</h2>
                 <p>
                     Usually referring to its descendant operating systems, BSD
-                    is a discontinued operating system based on <Link to="/glos#unix">Unix</Link>.
+                    is a discontinued operating system based on <a href="/glos#unix">Unix</a>.
                     While it takes up almost no market share, it&apos;s famous
                     because of the things that it&apos;s contributed to the
                     knowledge of computers today, which include the editor vi
@@ -310,7 +310,7 @@ export default class OS extends Component {
                 <Fig src="https://www.famouslogos.us/images/linux-logo.jpg" />
                 <h2 id="popular-linux">Linux</h2>
                 <p>
-                    Linux is an open-source operating system, also based on <Link to="/glos#unix">Unix</Link>. While this isn&apos;t exactly the most
+                    Linux is an open-source operating system, also based on <a href="/glos#unix">Unix</a>. While this isn&apos;t exactly the most
                     well-known operating system, it&apos;s an important one in
                     the programming world. This is because of a few reasons.
                     First of all, Linux is easily customizable, which for some
@@ -371,7 +371,7 @@ export default class OS extends Component {
                 <h3 id="systems-programs-layers">Using Abstraction Layers</h3>
                 <p>
                     The first method is to use abstraction layers. This means
-                    that you code in a <Link to="/pl">programming language</Link> and the compiler then creates a copy of the program for each
+                    that you code in a <a href="/pl">programming language</a> and the compiler then creates a copy of the program for each
                     architecture you&apos;re targeting. This allows you to write
                     the program once and compile it into each architecture you
                     want. However, since it&apos;s computer-generated, it&apos;s
@@ -409,7 +409,7 @@ export default class OS extends Component {
                 <h2 id="systems-execution">Execution</h2>
                 <p>
                     As mentioned in Parts of an <a href="#parts-kernel">Operating Systems § Kernel</a>, programs are executed on the program executor (duh).
-                    They usually are assigned a section of <Link to="/glos#memory">memory</Link>,
+                    They usually are assigned a section of <a href="/glos#memory">memory</a>,
                     which then stores its code and data. It&apos;s assigned a
                     program number (usually called the Program ID, shortened to
                     PID) and assigned a priority level (to determine whether to

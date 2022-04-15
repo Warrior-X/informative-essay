@@ -74,7 +74,7 @@ const Home = () => {
                             what to do!
                         </p>
                     </div>
-                </Link>
+                </a>
 
                 <Link
                     to="/os"
