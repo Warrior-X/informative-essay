@@ -110,9 +110,9 @@ export default class OS extends Component {
                     An Operating System, commonly abbreviated as OS, is the
                     thing that allows your computer to run. It contains
                     everything that runs the programs (referred to as the
-                    <Link to="#parts-kernel-exec">Program Execution</Link>), the component that
-                    manages the available resources (referred to as <Link to="#parts-kernel-mem">Memory
-                    Management</Link>), and lots more. It can be
+                    <a href="#parts-kernel-exec">Program Execution</a>), the component that
+                    manages the available resources (referred to as <a href="#parts-kernel-mem">Memory
+                    Management</a>), and lots more. It can be
                     compared to the brain of a human: it understands what
                     resources it has (for example, the amount of energy you
                     have) and what you need to do (for example, running to fetch
@@ -124,7 +124,7 @@ export default class OS extends Component {
                     It also allows for the computer to efficiently process input
                     and output. For example, if you have a printer linked to the
                     computer, it&apos;s the operating system (more specifically
-                    the <Link to="#parts-kernel">Kernel</Link>) that converts the document into a format
+                    the <a href="#parts-kernel">Kernel</a>) that converts the document into a format
                     that the printer can understand (using something called
                     Drivers). It can also process input, such as a mouse
                     click (again, the kernel would use the mouse&apos;s driver
@@ -146,14 +146,14 @@ export default class OS extends Component {
                     there are a lot of apps, then that means that more people
                     will want to use it. The second reason Windows is so popular
                     is that it&apos;s easy to use. Unlike specialized operating
-                    systems like <Link to="#popular-linux">Linux</Link>, you don&apos;t need to know much
+                    systems like <a href="#popular-linux">Linux</a>, you don&apos;t need to know much
                     about computers to be able to use Windows. If you want to
-                    know more about Windows, refer to <Link to="#popular-windows">this section</Link>.
+                    know more about Windows, refer to <a href="#popular-windows">this section</a>.
                 </p>
                 <p>
                     However, there are three operating systems that have most of
                     the computer market. If you want to learn more about them,
-                    look <Link to="#popular">here</Link>.
+                    look <a href="#popular">here</a>.
                 </p>
                 <h2 id="what-is-servers">Usage in Servers & Mainframes</h2>
                 <p>
@@ -161,13 +161,13 @@ export default class OS extends Component {
                     anything, it&apos;s obvious that <Link to="/glos#servers">servers</Link> and 
                     <Link to="/glos#mainframes">mainframes</Link> need them too. However, most of these
                     systems have <Link to="/glos#headless">headless</Link> operating systems, which
-                    means that they don&apos;t have a <Link to="#parts-interface">GUI</Link>. This is
+                    means that they don&apos;t have a <a href="#parts-interface">GUI</a>. This is
                     because basically no one will be using the computers
                     physically, so it&apos;s okay if they don&apos;t have pretty
                     pictures displayed on the screen.
                 </p>
                 <p>
-                    Most servers use <Link to="#popular-linux">Linux</Link> as their operating system.
+                    Most servers use <a href="#popular-linux">Linux</a> as their operating system.
                     This is because of several reasons. First of all, Linux is
                     lightweight. This means that it doesn&apos;t cost too many
                     resources to run, which allows for more resources to be used
@@ -189,9 +189,9 @@ export default class OS extends Component {
                     Because all of these take computers to operate, they need
                     operating systems. Because they don&apos;t have space to
                     have super powerful <Link to="/glos#processors">processors</Link>, they have to use
-                    <Link to="#popular-linux">Linux</Link> for their operating system, like servers.
+                    <a href="#popular-linux">Linux</a> for their operating system, like servers.
                     However, another thing that causes them to have to do this
-                    is the fact that they have to create their own <Link to="#parts-interface">GUI</Link>.
+                    is the fact that they have to create their own <a href="#parts-interface">GUI</a>.
                     Because they often have a custom theme that their products
                     use (such as the standardized dark theme for Nest
                     thermostats). Since, as I mentioned, Linux is easily
@@ -408,7 +408,7 @@ export default class OS extends Component {
                 </p>
                 <h2 id="systems-execution">Execution</h2>
                 <p>
-                    As mentioned in Parts of an <Link to="#parts-kernel">Operating Systems § Kernel</Link>, programs are executed on the program executor (duh).
+                    As mentioned in Parts of an <a href="#parts-kernel">Operating Systems § Kernel</a>, programs are executed on the program executor (duh).
                     They usually are assigned a section of <Link to="/glos#memory">memory</Link>,
                     which then stores its code and data. It&apos;s assigned a
                     program number (usually called the Program ID, shortened to

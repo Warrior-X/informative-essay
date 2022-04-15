@@ -13,10 +13,16 @@ const Glos = () => {
                         <a href="#data-structure">Data Structure</a>
                     </li>
                     <li>
+                        <a href="#registers">Registers</a>
+                    </li>
+                    <li>
                         <a href="#syntax">Syntax</a>
                     </li>
                     <li>
                         <a href="#readability">Readability</a>
+                    </li>
+                    <li>
+                        <a href="#compiler">Compiler</a>
                     </li>
                     <li>
                         <a href="#sun-microsystems">Sun Microsystems</a>
@@ -75,6 +81,8 @@ const Glos = () => {
             </h1>
             <h2 id="data-structure">Data Structure</h2>
             <p>Ways to store data in an organized way</p>
+            <h2 id="registers">Registers</h2>
+            <p>Blocks of data you can move around</p>
             <h2 id="syntax">Syntax</h2>
             <p>
                 The format in which the language is written, kind of like
@@ -85,6 +93,8 @@ const Glos = () => {
                 The amount of difficulty a person receives when reading your
                 code
             </p>
+            <h2 id="compiler">Compiler</h2>
+            <p>The thing that turns source code into machine code</p>
             <h2 id="sun-microsystems">Sun Microsystems</h2>
             <p>A computer company</p>
             <h2 id="world-wide-web">World Wide Web</h2>

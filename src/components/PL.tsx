@@ -9,6 +9,7 @@ import pl6 from "../public/pl6.png";
 import pl7 from "../public/pl7.png";
 import pl8 from "../public/pl8.jpeg";
 import FactBox from "./FactBox";
+import { Link } from "react-router-dom";
 
 export default class PL extends Component {
     render() {
@@ -87,7 +88,7 @@ export default class PL extends Component {
                     can make robots move, see things and react appropriately,
                     and even play games together(robot soccer?). Some robots can
                     even lead people to seats and cook food. Computers
-                    classified as supercomputers [definition] can help predict
+                    classified as <Link to="/glos#supercomputers">supercomputers</Link> can help predict
                     the weather or make a trajectory path for a spaceship
                     landing on the moon, or even on Mars. All of this stuff may
                     not seem important now, but in the future they will be
@@ -174,7 +175,7 @@ export default class PL extends Component {
                     code can operate almost instantly because the computer can
                     instantly read and understand it. It is also the only
                     language the computer can understand. So, all other
-                    languages must be converted, or compiled[definition], into
+                    languages must be converted, or <Link to="/glos#compiler">compiled</Link>, into
                     machine language before it can be run, which is why machine
                     language is the most low-level yet essential language. Since
                     binary is literally just 1&apos;s and 0&apos;s, machine
@@ -198,7 +199,7 @@ export default class PL extends Component {
                     1&apos;s. Assembly language is the middleman between binary
                     and other languages. Assembly language is a way to convert
                     higher level languages into a set of operations done on
-                    registers[definition:blocks of data you can move around].{" "}
+                    <Link to="/glos#registers">registers</Link>.{" "}
                 </p>
                 <p>
                     These are some of the more well known low-level languages. A
@@ -247,15 +248,15 @@ export default class PL extends Component {
                     use in comparison to other languages at the time because it
                     used indents instead of brackets to group code and could
                     execute complex things in just a few lines. Python also has
-                    built-in data structures[definition], such as a list or a
+                    built-in <Link to="/glos#data-structures">data structures</Link>, such as a list or a
                     set. It is also easy to comprehend from either another
                     coder&apos;s perspective or from a person who does not
-                    understand the syntax(the words in the
-                    language)[definition]. For example, the code for displaying
+                    understand the <Link to="/glos#syntax">syntax</Link>(the words in the
+                    language). For example, the code for displaying
                     the text “Hello World” is very simple.{" "}
                 </p>
                 <p>
-                    This quality is called readability[definition]. However, the
+                    This quality is called <Link to="/glos#readability">readability</Link>. However, the
                     large downside of Python is that it is very slow. This is
                     because Python turns into machine code[see previous chapter]
                     as it is running, which delays the program. This problem is
@@ -268,9 +269,9 @@ export default class PL extends Component {
                 <p>
                     Java, unlike Python, doesn&apos;t compile during its
                     runtime. However, it is also very popular and is still used
-                    today. According to Britannica, Java was created by Sun
-                    Microsystems[definition] in 1995. It was originally designed
-                    to help the World Wide Web[definition]. It was equipped with
+                    today. According to Britannica, Java was created by <Link to="/glos#sun-microsystems">Sun
+                    Microsystems</Link> in 1995. It was originally designed
+                    to help the <Link to="world-wide-web">World Wide Web</Link>. It was equipped with
                     tools that could make it behave like a low-level language,
                     but is still considered a high-level language because of
                     readability. Nowadays, the Java website states that Java is
@@ -304,7 +305,7 @@ export default class PL extends Component {
                     like operating systems. Microsoft says that because C# is
                     object oriented, you can use it to define types and what
                     they do, which makes it great for making games. To run the
-                    source code[definition], it is first compiled into a
+                    <Link to="/glos#source-code">source code</Link>, it is first compiled into a
                     different language that is then compiled into machine code.
                     C# is still easier to read than machine code, but instead of
                     just plain “print” like Python, it has “Console.WriteLine”.

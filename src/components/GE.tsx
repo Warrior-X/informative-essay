@@ -5,6 +5,7 @@ const GE = () => {
     return (
         <div className="mx-auto w-2/3 text-black dark:text-white text">
             <h1>Computer Hardware</h1>
+            <h3>By Ruiyu, Jason, and Rohan</h3>
             <p>
                 Have you ever wondered what makes your computer work? The black
                 box of magic on your desk (or, well, the black laptop of magic)
