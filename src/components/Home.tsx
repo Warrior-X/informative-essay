@@ -111,8 +111,8 @@ const Home = () => {
                         </p>
                     </div>
                 </Link>
-                <Fig src="https://cdn.mos.cms.futurecdn.net/w3Sw4xyieWmd5XBBbhUHED-1024-80.jpg.webp" />
             </div>
+            <Fig src="https://cdn.mos.cms.futurecdn.net/w3Sw4xyieWmd5XBBbhUHED-1024-80.jpg.webp" />
         </div>
     );
 };
