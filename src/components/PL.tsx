@@ -164,7 +164,6 @@ export default class PL extends Component {
                     name="Did you know?"
                     content="C++ used to be considered a high level programming language before it was changed to a low level one?"
                 />
-                f
                 <Fig src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Apple_II_Monitor.png" />
                 <p>
                     Machine language is the most basic programming language, yet

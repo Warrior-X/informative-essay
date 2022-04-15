@@ -110,9 +110,9 @@ export default class OS extends Component {
                     An Operating System, commonly abbreviated as OS, is the
                     thing that allows your computer to run. It contains
                     everything that runs the programs (referred to as the
-                    Program Execution [link to section]), the component that
-                    manages the available resources (referred to as Memory
-                    Management [link to section]), and lots more. It can be
+                    <Link to="#parts-kernel-exec">Program Execution</Link>), the component that
+                    manages the available resources (referred to as <Link to="#parts-kernel-mem">Memory
+                    Management</Link>), and lots more. It can be
                     compared to the brain of a human: it understands what
                     resources it has (for example, the amount of energy you
                     have) and what you need to do (for example, running to fetch
@@ -124,13 +124,12 @@ export default class OS extends Component {
                     It also allows for the computer to efficiently process input
                     and output. For example, if you have a printer linked to the
                     computer, it&apos;s the operating system (more specifically
-                    the Kernel [link]) that converts the document into a format
+                    the <Link to="#parts-kernel">Kernel</Link>) that converts the document into a format
                     that the printer can understand (using something called
-                    Drivers [link]). It can also process input, such as a mouse
+                    Drivers). It can also process input, such as a mouse
                     click (again, the kernel would use the mouse&apos;s driver
                     to process the information into a format the computer can
-                    understand). If you want to learn more about this, go to I/O
-                    Devices [link].
+                    understand).
                 </p>
                 <h2 id="what-is-computers">Usage in Personal Computers</h2>
                 <p>
@@ -147,28 +146,28 @@ export default class OS extends Component {
                     there are a lot of apps, then that means that more people
                     will want to use it. The second reason Windows is so popular
                     is that it&apos;s easy to use. Unlike specialized operating
-                    systems like Linux [link], you don&apos;t need to know much
+                    systems like <Link to="#popular-linux">Linux</Link>, you don&apos;t need to know much
                     about computers to be able to use Windows. If you want to
-                    know more about Windows, refer to this section [link].
+                    know more about Windows, refer to <Link to="#popular-windows">this section</Link>.
                 </p>
                 <p>
                     However, there are three operating systems that have most of
                     the computer market. If you want to learn more about them,
-                    look here [link].
+                    look <Link to="#popular">here</Link>.
                 </p>
                 <h2 id="what-is-servers">Usage in Servers & Mainframes</h2>
                 <p>
                     Since every computer needs an Operating System to do
-                    anything, it&apos;s obvious that servers [glossary] and 
+                    anything, it&apos;s obvious that <Link to="/glos#servers">servers</Link> and 
                     <Link to="/glos#mainframes">mainframes</Link> need them too. However, most of these
-                    systems have headless [glossary] operating systems, which
-                    means that they don&apos;t have a GUI [link]. This is
+                    systems have <Link to="/glos#headless">headless</Link> operating systems, which
+                    means that they don&apos;t have a <Link to="#parts-interface">GUI</Link>. This is
                     because basically no one will be using the computers
                     physically, so it&apos;s okay if they don&apos;t have pretty
                     pictures displayed on the screen.
                 </p>
                 <p>
-                    Most servers use Linux [link] as their operating system.
+                    Most servers use <Link to="#popular-linux">Linux</Link> as their operating system.
                     This is because of several reasons. First of all, Linux is
                     lightweight. This means that it doesn&apos;t cost too many
                     resources to run, which allows for more resources to be used
@@ -189,10 +188,10 @@ export default class OS extends Component {
                     -- It&apos;s present in refrigerators, thermostats, etc.
                     Because all of these take computers to operate, they need
                     operating systems. Because they don&apos;t have space to
-                    have super powerful processors [glossary], they have to use
-                    Linux [link] for their operating system, like servers.
+                    have super powerful <Link to="/glos#processors">processors</Link>, they have to use
+                    <Link to="#popular-linux">Linux</Link> for their operating system, like servers.
                     However, another thing that causes them to have to do this
-                    is the fact that they have to create their own GUI [link].
+                    is the fact that they have to create their own <Link to="#parts-interface">GUI</Link>.
                     Because they often have a custom theme that their products
                     use (such as the standardized dark theme for Nest
                     thermostats). Since, as I mentioned, Linux is easily
@@ -226,8 +225,8 @@ export default class OS extends Component {
                     1&apos;s and 0&apos;s. Because of this, you need the kernel
                     to be able to process these instructions. The program
                     executor usually gives programs a way of interacting with
-                    the I/O devices [link] without needing to know their
-                    specific commands (this is the drivers [link] I talked about
+                    the I/O devices without needing to know their
+                    specific commands (this is the drivers I talked about
                     in the introduction). Last, the program executor gives
                     priority to the programs, which lets it know which programs
                     to run first when it runs out of resources to run them all
@@ -237,7 +236,7 @@ export default class OS extends Component {
                 <p>
                     Another very important part of the kernel is memory
                     management, which controls memory space (the information
-                    stored in RAM sticks [glossary] which stores temporary
+                    stored in <Link to="/glos#ram-sticks">RAM sticks</Link> which stores temporary
                     information related to the current running programs). This
                     usually stores both running program instructions (what the
                     program tells the computer to do) and the program data1. The
@@ -249,7 +248,7 @@ export default class OS extends Component {
                 <p>
                     One last important thing that&apos;s in the kernel is the
                     file system. The file system is the system that the
-                    computer&apos;s hard drive [glossary] or SSD [glossary] uses
+                    computer&apos;s <Link to="/glos#hard-drive">hard drive</Link> or <Link to="/glos#ssd">SSD</Link> uses
                     to store the files and folders in your computer. When you
                     open the file explorer (on Windows) or file app (on macOS),
                     you are essentially asking the kernel to give you a list of
@@ -272,7 +271,7 @@ export default class OS extends Component {
                     However, when people started to adopt computers, it would be
                     a sharp learning curve if they had to memorize all the
                     commands a computer could execute and what they do. Because
-                    of this, people created a GPU [glossary], which would do the
+                    of this, people created a <Link to="/glos#gpu">GPU</Link>, which would do the
                     necessary calculations that have to do with drawing graphics
                     (basically images) to the screen. This evolved into the
                     graphical user interfaces we see today on everything from a
@@ -298,7 +297,7 @@ export default class OS extends Component {
                 <h2 id="popular-bsd">BSD</h2>
                 <p>
                     Usually referring to its descendant operating systems, BSD
-                    is a discontinued operating system based on Unix [glossary].
+                    is a discontinued operating system based on <Link to="/glos#unix">Unix</Link>.
                     While it takes up almost no market share, it&apos;s famous
                     because of the things that it&apos;s contributed to the
                     knowledge of computers today, which include the editor vi
@@ -311,8 +310,7 @@ export default class OS extends Component {
                 <Fig src="https://www.famouslogos.us/images/linux-logo.jpg" />
                 <h2 id="popular-linux">Linux</h2>
                 <p>
-                    Linux is an open-source operating system, also based on Unix
-                    [glossary]. While this isn&apos;t exactly the most
+                    Linux is an open-source operating system, also based on <Link to="/glos#unix">Unix</Link>. While this isn&apos;t exactly the most
                     well-known operating system, it&apos;s an important one in
                     the programming world. This is because of a few reasons.
                     First of all, Linux is easily customizable, which for some
@@ -373,9 +371,7 @@ export default class OS extends Component {
                 <h3 id="systems-programs-layers">Using Abstraction Layers</h3>
                 <p>
                     The first method is to use abstraction layers. This means
-                    that you code in a programming language [link to
-                    Jason&apos;s essay] and the compiler [link to Jason&apos;s
-                    essay] then creates a copy of the program for each
+                    that you code in a <Link to="/pl">programming language</Link> and the compiler then creates a copy of the program for each
                     architecture you&apos;re targeting. This allows you to write
                     the program once and compile it into each architecture you
                     want. However, since it&apos;s computer-generated, it&apos;s
@@ -412,9 +408,8 @@ export default class OS extends Component {
                 </p>
                 <h2 id="systems-execution">Execution</h2>
                 <p>
-                    As mentioned in Parts of an Operating Systems § Kernel
-                    [link], programs are executed on the program executor (duh).
-                    They usually are assigned a section of memory [glossary],
+                    As mentioned in Parts of an <Link to="#parts-kernel">Operating Systems § Kernel</Link>, programs are executed on the program executor (duh).
+                    They usually are assigned a section of <Link to="/glos#memory">memory</Link>,
                     which then stores its code and data. It&apos;s assigned a
                     program number (usually called the Program ID, shortened to
                     PID) and assigned a priority level (to determine whether to
