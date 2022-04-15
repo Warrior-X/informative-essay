@@ -13,8 +13,16 @@ export default class AI extends Component {
     render() {
         return (
             <div className="mx-auto max-w-[720px] text-black dark:text-white text">
-                <h1>The Origins and Future of A.I.</h1>
-                <h2>Introduction</h2>
+                <h1>Table of Contents</h1>
+                <ol className="list-decimal list-inside indent-8">
+                    <li><a href="#origin">The Origins and Future of A.I.</a></li>
+                    <ol className="list-decimal list-inside indent-16"><li><a href="#origin">The Origins and Future of A.I.</a></li></ol>
+                    <li><a href="#train">How A.I Works and Trains</a></li>
+                    <li><a href="#used">How A.I is Used</a></li>
+                    <li><a href="#life">Finding A.I in Daily Life</a></li>
+                </ol>
+                <h1 id="origin">The Origins and Future of A.I.</h1>
+                <h2 id="origin-intro">Introduction</h2>
                 <p>
                     This is the beginning of a new generation, a new world, and
                     new technology to finish homework; this is A.I within the
@@ -26,7 +34,7 @@ export default class AI extends Component {
                     privacy issues, corruption, and finally new job
                     opportunities.
                 </p>
-                <h2>Origins of A.I.</h2>
+                <h2 id="origin-origin">Origins of A.I.</h2>
                 <p>
                     The origins of A.I come from where someone creates a script
                     or program focusing on one main function for the A.I to use
@@ -67,7 +75,7 @@ export default class AI extends Component {
                     daily life like Google and Safari. A.I is found throughout
                     apps and websites.
                 </p>
-                <h2>Future of A.I.</h2>
+                <h2 id="origin-future">Future of A.I.</h2>
                 <p>
                     AI systems are impacting how we live now and in the future.
                     A.I can corrupt in ways unthinkably bad and can affect us.
@@ -88,7 +96,7 @@ export default class AI extends Component {
                     of no corruption, and so much more! AI can be the future for
                     good and bad just found in your computer.
                 </p>
-                <h2>Conclusion</h2>
+                <h2 id="origin-conclusion">Conclusion</h2>
                 <p>
                     Origins of A.I and the future of A.I can be bad and can be
                     good. Lets review; the Origins of A.I come from computer
@@ -99,8 +107,8 @@ export default class AI extends Component {
                     that&apos;s done let&apos;s move on to how A.I works and
                     trains.
                 </p>
-                <h1>How A.I Works and Trains</h1>
-                <h2>Introduction</h2>
+                <h1 id="train">How A.I Works and Trains</h1>
+                <h2 id="train-intro">Introduction</h2>
                 <p>
                     Deep down how A.I works is through subsets of it basically
                     groups and they use those groups and then input that
@@ -111,7 +119,7 @@ export default class AI extends Component {
                     you’ll be learning about learning and applying, and how it
                     learn
                 </p>
-                <h2>The Subsets</h2>
+                <h2 id="train-subset">The Subsets</h2>
                 <p>
                     Machine Learning is a main group you may have heard of
                     before, well you may not have known that it is actually part
@@ -152,7 +160,7 @@ export default class AI extends Component {
                     src={ai4}
                     caption="Source: https://www.geeksforgeeks.org/how-machine-learning-and-artificial-intelligence-will-impact-global-industries-in-2020"
                 />
-                <h2>Learning and Applying</h2>
+                <h2 id="train-learn">Learning and Applying</h2>
                 <Fig
                     src={ai7}
                     caption="Source: https://www.infoworld.com/article/3622237/5-ai-startups-leading-mlops.html"
@@ -176,7 +184,7 @@ export default class AI extends Component {
                     learn, or use a chatbot tool and then you can add it to any
                     platform or website.
                 </p>
-                <h2>Conclusion</h2>
+                <h2 id="train-conclusion">Conclusion</h2>
                 <p>
                     Knowing the Subsets of A.I can take you above and beyond
                     allowing you to perhaps have a future in computer knowledge
@@ -185,8 +193,8 @@ export default class AI extends Component {
                     learn and apply their knowledge to websites or apps too.
                     Next up you’ll be learning about How A.I is used.
                 </p>
-                <h1>How A.I is Used</h1>
-                <h2>Introduction</h2>
+                <h1 id="used">How A.I is Used</h1>
+                <h2 id="used-intro">Introduction</h2>
                 <p>
                     Now that you have all the data, how about we go on a
                     scavenger hunt throughout your computer and look around for
@@ -196,7 +204,7 @@ export default class AI extends Component {
                     down to three. A.I is used in voice recognition, Chatbots,
                     and Online Shopping
                 </p>
-                <h2>A.I use in computers</h2>
+                <h2 id="used-computers">A.I use in computers</h2>
                 <p>
                     A.I is used for voice recognition. Most people around the
                     world know to call out Siri, Alexa, or basically any AI
@@ -243,7 +251,7 @@ export default class AI extends Component {
                     caption="Source: https://www.salesforce.com/br/atendimento-ao-cliente/chatbot/"
                 />
 
-                <h2>Shopping Features</h2>
+                <h2 id="used-shopping">Shopping Features</h2>
                 <p>
                     Now onto Online Shopping. A.I is used in Online shopping.
                     This may be shocking but it can be used in this category and
@@ -271,8 +279,8 @@ export default class AI extends Component {
                     src={ai5}
                     caption="Source: https://www.mygreatlearning.com/blog/top-powerful-ai-applications-for-e-commerce"
                 />
-                <h1>Chapter 4: Finding A.I in Daily Life</h1>
-                <h2>Introduction</h2>
+                <h1 id="life">Chapter 4: Finding A.I in Daily Life</h1>
+                <h2 id="life-intro">Introduction</h2>
                 <p>
                     Have you ever wondered about the thought that something
                     could be tracking you or that there could be A.I in your
@@ -286,7 +294,7 @@ export default class AI extends Component {
                     about How A.I is used just remember how they were used and
                     their purposes for this chapter.
                 </p>
-                <h2>Google Apps</h2>
+                <h2 id="life-google">Google Apps</h2>
                 <Fig
                     src={ai6}
                     caption="Source: https://www.theverge.com/22286339/google-drive-storage-more-space-how-to-photos-files"
@@ -325,7 +333,7 @@ export default class AI extends Component {
                     absolute definition of an Online Search Engine.
                 </p>
                 <Fig src={ai2} caption="Source: https://copyleaks.com" />
-                <h2>Educational Tools</h2>
+                <h2 id="life-edu">Educational Tools</h2>
                 <p>
                     A.I can be found in a variety of Educational Tools. For
                     example Plagiarism Checkers and Citation Finders; A.I use in

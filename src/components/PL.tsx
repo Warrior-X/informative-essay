@@ -13,7 +13,14 @@ export default class PL extends Component {
     render() {
         return (
             <div className="mx-auto max-w-[720px] text-black dark:text-white text">
-                <h1>What are programming languages?</h1>
+                <h1>Table of Contents</h1>
+                <ul className="list-decimal list-inside indent-8">
+                    <li><a href="#what-are">What are Programming Langauges?</a></li>
+                    <li><a href="#low-level">Low-Level Languages</a></li>
+                    <li><a href="#high-level">High-Level Langauge</a></li>
+                    <li><a href="#future">The Future of Programming Languages</a></li>
+                </ul>
+                <h1 id="what-are">What are programming languages?</h1>
                 <p>
                     Technology and computers are appearing everywhere, and even
                     now, different technologies are appearing and are being
@@ -102,7 +109,7 @@ export default class PL extends Component {
                     talk more about these languages and how they work.
                 </p>
 
-                <h1>Low-level Languages</h1>
+                <h1 id="low-level">Low-level Languages</h1>
 
                 <p>
                     Now that you know what programming languages are, it is time
@@ -180,7 +187,7 @@ export default class PL extends Component {
                     become machine language in order to be run.{" "}
                 </p>
 
-                <h1>High-Level Languages</h1>
+                <h1 id="high-level">High-Level Languages</h1>
 
                 <p>
                     Now that you know what programming languages are, it&apos;s
@@ -285,7 +292,7 @@ export default class PL extends Component {
                     We may not know for sure, but we can take a few guesses.{" "}
                 </p>
 
-                <h1>The Future of Programming Languages</h1>
+                <h1 id="future">The Future of Programming Languages</h1>
 
                 <p>
                     Now that you know about the two main types of programming

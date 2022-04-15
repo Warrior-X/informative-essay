@@ -27,3 +27,8 @@ h2 {
 .text p {
     text-indent: 2rem;
 }
+
+ol a {
+    color: #00f;
+    text-decoration: underline;
+}
