@@ -5,6 +5,7 @@ import OS from "./OS";
 import AI from "./AI";
 import PL from "./PL";
 import Header from "./Header";
+import GE from "./GE";
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
                 <Route path="/os" element={<OS />} />
                 <Route path="/ai" element={<AI />} />
                 <Route path="/pl" element={<PL />} />
+                <Route path="/ge" element={<GE />} />
             </Routes>
         </div>
     );
